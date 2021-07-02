@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".activities.PlayGameActivity">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/button_left_alignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/button_right_alignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.9" />
+
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:text="TriviaApp"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/_50sdp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/ivImage"
+            app:layout_constraintEnd_toEndOf="@+id/button_right_alignment"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/button_left_alignment"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:src="@drawable/splash"
+            app:layout_constraintEnd_toEndOf="@+id/button_right_alignment"
+            app:layout_constraintStart_toStartOf="@+id/button_left_alignment"
+            app:layout_constraintTop_toBottomOf="@+id/tvText" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_default"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Play"
+            android:layout_marginTop="@dimen/top_margin"
+            app:layout_constraintEnd_toEndOf="@+id/button_right_alignment"
+            app:layout_constraintStart_toStartOf="@+id/button_left_alignment"
+            app:layout_constraintTop_toBottomOf="@+id/ivImage" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

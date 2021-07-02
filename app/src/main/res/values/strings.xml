@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TriviaApp</string>
+    <string name="text_default_score">Score: 0</string>
+    <string name="text_default_time_left">Time left - 05:00</string>
+    <string name="text_default_questions_answered">01 / infinite</string>
+    <string name="text_default_button">Default Button</string>
+    <string name="text_correct_button">Correct Button</string>
+    <string name="text_wrong_button">Wrong Button</string>
+    <string name="text_game_over">Game Over!</string>
+    <string name="text_start_new_game">Start New Game</string>
+
+    <string name="text_you_unlocked_medium">Congratulations! You have cleared this questions</string>
+    <string name="no_internet_message">no_internet_message</string>
+    <string name="error_no_connection">error_no_connection</string>
+    <string name="try_again">Try Again</string>
+</resources>

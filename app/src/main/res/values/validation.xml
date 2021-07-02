@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_first_name" translatable="false">Please enter your first name</string>
+    <string name="error_first_name_with_mini" translatable="false">Please enter first name between 2 to 32 characters</string>
+    <string name="error_last_name" translatable="false">Please enter your Last name</string>
+    <string name="error_user_name" translatable="false">Please enter username</string>
+    <string name="error_last_name_with_mini" translatable="false">Please enter last name between 2 to 32 characters</string>
+    <string name="error_user_name_with_mini" translatable="false">Please enter Username between 2 to 32 characters</string>
+    <string name="error_phone_number" translatable="false">Please enter your mobile number</string>
+    <string name="error_phone_number_invalid_number" translatable="false">Please enter a valid mobile number</string>
+    <string name="error_phone_number_less_then_10" translatable="false">Please enter a 10 digit mobile number</string>
+    <string name="error_password" translatable="false">Please enter a password</string>
+    <string name="error_confirm_password" translatable="false">Please confirm the password</string>
+    <string name="error_confirm_password_invalid" translatable="false">Confirm Password does not match</string>
+    <string name="error_enter_email" translatable="false">Please enter an email address</string>
+    <string name="error_valid_email"> Please enter valid email address</string>
+    <string name="error_old_password">Please enter old password</string>
+    <string name="error_new_password">Please enter new password</string>
+    <string name="error_password_length">Password must contain atleast 6 characters</string>
+    <string name="error_confirm_password_lenght">Confirm Password must be between 6 to 24 characters</string>
+    <string name="error_terms">Please accept the Terms &amp; Conditions</string>
+    <string name="error_otp">Please enter valid verification code</string>
+    <string name="error_otp_msg">Please enter verification code</string>
+
+    <string name="error_invalid_zipcode">Please enter valid zip code</string>
+
+    <string name="all_permissions_denied_feedback">All those permissions are needed for doing some magic</string>
+    <string name="permission_rationale_settings_button_text">SETTINGS</string>
+
+    <string name="file_size_eroor">Please choose another image, maximum allowed image file size is %1$sMB.</string>
+
+    // forgot
+    <string name="blank_mobile">Please enter registered mobile number </string>
+
+    //Reset Password
+    <string name="error_enter_password_reset">Please enter an password</string>
+
+
+    // IM Selling
+    <string name="error_product_name">Please enter product name</string>
+    <string name="error_product_min_max">Please enter product name between 2 to 100 characters</string>
+<!--    <string name="error_product_price_range">Price amount should be between \u20B9 %1$s to \u20B9 %2$s</string>-->
+    <string name="error_product_brand">Please enter Brand name</string>
+    <string name="error_min_max_brand">Please enter brand name between 2 to 100 characters</string>
+    <string name="error_price">Please enter Price</string>
+    <string name="error_description">Please enter product description</string>
+    <string name="error_zipcode">Please select zip code </string>
+    <string name="error_city">Please select city</string>
+    <string name="error_upload_image"> Please upload Product image</string>
+    <string name="error_uniue_name">Please enter unique name</string>
+    <string name="error_invalid_uniue_name">Please enter valid unique name</string>
+    <string name="error_account_inactive">Your account suspended by Admin. Please contact Support team.</string>
+    <string name="empty_search">Please enter search text</string>
+
+
+
+    <string name="error_brand_name">Please enter brand name</string>
+    <string name="error_brand_name_min_max">Brand Name can be max 100 characters long</string>
+    <string name="error_ad_title">Please enter advertiesment title</string>
+    <string name="error_ad_title_max">Please enter advertiesment Title</string>
+    <string name="error_physical_condition">Please enter physical condition</string>
+    <string name="error_physical_condition_max">Physical Condition details can be max 100 characters long</string>
+<!--    <string name="error_description">Physical Condition details can be max 100 characters long</string>-->
+<!--    Description should be maximum 256 characters.-->
+    <string name="error_zipcodee">Please enter Zip Code</string>
+    <string name="error_zipcodee_invalid">Please enter valid Zip Code</string>
+
+
+</resources>
